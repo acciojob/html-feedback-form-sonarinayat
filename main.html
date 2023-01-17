@@ -9,11 +9,16 @@
 <body>
 	<!-- the entire body must be written by student -->
    <form>
-	  <heading>Feedback Form</heading> 
-	   <label id="name">kareena kapoor</label>
-	   <input type="text" name="username" minlength="3" maxlength="50">
-	   <div id="portfolio" href="https://en.wikipedia.org/wiki/Kareena_Kapoor">wikipedia</div>
-
+	  <heading>Feedback Form</heading> <br>
+	   <label for="username">Name</label>
+	 <input type="text" name="username" minlength="3" maxlength="50" required><br>
+	<label for="portfolio">Portfolio</label>  
+	   <input  type="text" id="portfolio" name="portfolio"required><br>
+	   <label for="favcolor">favcolor</label>  
+	   <input type="color" id="favcolor" name="favcolor"required><br>
+	   <label for="likeness">Likeness</label>  
+	   <input type="range" id="likeness" name="likeness" min="0" max="100" required>
+	   
    </form>
 	<script type="text/javascript" src="./script.js">
 </script>
